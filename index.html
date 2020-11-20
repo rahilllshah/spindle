@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    
+	<head>
+        
+		<meta charset="utf-8">
+        <title>Spindle</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        
+        <link rel="icon" href="Images/logo.png" sizes="16x16" type="image/png">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type= "text/css" href="style.css">        
+        
+	
+    </head>
+	
+    <body>
+        
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <div id="nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+            </label>
+            
+            <script>
+                $(document).ready(function(){
+	               $('#nav-icon').click(function(){
+		              $(this).toggleClass('open');
+                   });
+                });        
+            </script>
+            
+            
+                <ul class="navL">
+                    
+                <li><a href="#section1" class="section1-marker active">About</a></li>       
+                <li><a href="#section2" class="section2-marker">Episodes</a></li>
+                <li><img class="logo" src="Images/logo.png"></li>
+                <li><a href="#section3" class="section3-marker">Requests</a></li> 
+                <li><a href="#section4" class="section4-marker">Team</a></li>   
+                </ul>
+            
+        </nav>
+                
+        <section class="section0" id="section0">
+            
+            <div class = "row">
+                
+                <div class="col-6 landing">
+                    <h1 class="landingtitle">Oh the places you can go, with a bio degree</h1>
+                    
+                    <p class="landingsub">A healthcare focused podcast driven by students</p>
+                        
+                    <div class="button" id="button-3">
+                        <div id="circle"></div>
+                        <a href="#"><i class="fab fa-spotify"></i> LISTEN ON SPOTIFY</a>
+                    </div>
+                        
+                    <div class="button2" id="button-3">
+                        <div id="circle"></div>
+                        <a href="#"><i class="fab fa-apple"></i> LISTEN ON APPLE</a>
+                        </div>
+                    </div>
+                
+                <div class = "col-6 landing">
+                    <img class="landingimg" src="Images/landing.jpg">
+                </div>
+                
+            </div>
+
+        </section>
+            
+        
+        
+        <section class="section1" id="section1">
+            <div class="container1">
+             <div class="row">  
+                <div class="col-12">
+                    <h1 class="section1title">Conversations with leaders in...</h1>
+                </div>      
+             </div>
+                
+                <div class="row grid">
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-palette interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>BioTech</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-hockey-puck interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>Venture Capitals</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-futbol interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>Medicine</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-route interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>Syn Bio</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-hands-helping interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>Bioinfo</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-music interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>Health Policy</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-music interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>Law</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="our-project">
+                            <div class="img">
+                                <i class="fas fa-music interestFont"></i>
+                            </div>
+                            <div class="interestTitle py-3">
+                                <h4>Consulting</h4>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+
+        
+         <section class="section2" id="section2">
+                  <div class="row">  
+                <div class="col-12">
+                    <h1 class="section2title">The goal is to introduce undergrads in biology-related programs to the many paths available to them to their degree.</h1>
+                </div>       
+             </div>
+             
+             <div class="row">
+             <div class="col-12">
+             <div class="button3" id="button-3">
+                        <div id="circle"></div>
+                        <a href="#"><i class="fas fa-play"></i> LISTEN TO OUR PODCAST TAILER</a>
+                    </div>
+                 
+                 </div>
+             </div>
+             
+            </section>
+
+        
+        <section class="section3" id="section3">
+            <div class="container3">
+            <div class="row"></div>
+            <div class="col-4">
+            
+                <h1 class="section3title">Full Episodes</h1>
+            
+            </div>
+            <div class="col-8">
+            <iframe src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F9501379%2Fplaylist_multi.xml&amp;vjs=1&amp;size=430&amp;skin=1&amp;episode_list_bg=%23ffffff&amp;bg_left=%23000000&amp;bg_mid=%230c5056&amp;bg_right=%232a1844&amp;podcast_title_color=%23c4c4c4&amp;episode_title_color=%23ffffff&amp;auto=0&amp;share=1&amp;fonts=Helvetica&amp;download=1&amp;rtl=0&amp;show_playlist_recent_number=10" title="Spindle" width="60%" height="430" scrolling="no" style="border: none;"></iframe>
+            </div>
+            </div>
+        </section>
+
+        
+        <div class="footer">
+        <span class="text-secondary">&#169 2020 Spindle. All Rights Reserved.</span>
+        </div>
+        
+		<script>
+			(function() {
+                var navLinks = $('nav ul li a'),
+                    navH = $('nav').height(),
+                    section = $('section'),
+                    documentEl = $(document);
+                documentEl.on('scroll', function() {
+                    var currentScrollPos = documentEl.scrollTop();
+                    section.each(function() {
+                        var self = $(this);
+                        if ( self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) < (self.offset().top + self.outerHeight()) ) {
+                            var targetClass = '.' + self.attr('class') + '-marker';
+                            navLinks.removeClass('active');
+                            $(targetClass).addClass('active');
+                        }
+                    });  
+                });
+			})();
+		</script>
+
+        <script>
+        $(document).ready(function(){ 
+            $('nav ul li a').click(function() { 
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) { 
+                    var $target = $(this.hash); 
+                    $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']'); 
+                    if ($target.length) { 
+                        var targetOffset = $target.offset().top; 
+                        $('html,body') .animate({scrollTop: targetOffset}, 1000); return false; 
+                    } 
+                } 
+            }); 
+        });
+        </script>
+        
+        <script>
+            $(window).scroll(function(){
+            
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+            });
+        </script>
+        
+        
+        
+
+	</body>
+</html>

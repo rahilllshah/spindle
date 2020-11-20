@@ -1,0 +1,744 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+
+
+}
+
+body{
+    position: relative;
+}
+
+
+/*Global Font Formats and Containers*/
+
+.navFontBlack{
+    color: black;
+    font-size: 12px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #231f20;
+}
+
+.link{
+    text-decoration: none !important;
+}
+
+.contain{
+
+}
+
+.contain2{
+    background-color: white;
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+
+.contain3{
+
+    padding-left: 15vh;
+    padding-right: 15vh;
+}   
+
+
+/*Nav*/
+
+#nav-icon {
+  zoom: 0.37;
+  width: 50px;
+  height: 45px;
+  position: relative;
+  margin: 44px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+
+nav {
+    position: fixed;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(6px);
+    -moz-backdrop-filter: blur(6px);
+    -o-backdrop-filter: blur(6px);
+    /* outline: 1px solid #f2f2f2; 
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);*/
+    background-color: hsla(0, 0%, 100%, .8);
+    filter:blur(0)
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+/*.bg.scrolled {
+    position: fixed;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(6px);
+    -moz-backdrop-filter: blur(6px);
+    -o-backdrop-filter: blur(6px);
+    /* outline: 1px solid #f2f2f2;
+    /*box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    background-color: hsla(0, 0%, 0%, .8);
+    filter:blur(0)
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    overflow: hidden;
+    transition: 0.5s;
+}*/
+
+img.logo{
+    width: 75px;
+    line-height: 40px;
+    padding: 0 20px;
+    
+}
+
+.navL{
+    text-align: center;
+    width: 100%;
+}
+
+
+nav ul li{
+    
+    display: inline;
+    line-height: 60px;
+    margin: 0 5px;
+    
+}
+
+nav ul li a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 30px;
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+
+a.active, a:hover{
+    color: darkgray;
+    transition: .5s;
+}
+
+.checkbtn{
+    color: black;
+    float: left;
+    line-height: 40px !important;
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display:none;
+}
+
+
+/*Landing*/
+
+.landing{
+    text-align: center;
+    width: 100%;
+}
+
+.landingtitle{
+        text-align: left;
+        position: relative;
+        color: #7094b0;
+        margin-top: 18%;
+        margin-left: 20%;
+        width: 70%;
+        font-size: 50px;
+
+    }
+    
+    .landingsub{
+        text-align: left;
+        position: relative;
+        color: #7094b0;
+        margin-left: 20%;
+        width: 70%;
+        font-size: 20px;
+        
+    }
+
+
+.landingimg{
+    position: relative;
+    float: left;
+    margin-top: 60px;
+    object-fit: cover;
+    width: 90%;
+    height: 50vh;
+
+}
+
+
+/* Buttons */
+
+.button {
+  position: relative;
+    float: left;
+    margin-left: 20%;
+    display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  width: 180px;
+  border: 0.5px solid #7094b0;
+    border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+}
+
+a {
+  color: #7094b0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-3 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-3 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#circle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #ebf2f7;
+  position: absolute;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
+}
+
+#button-3:hover #circle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+
+#button-3:hover a {
+  color: #7094b0;
+    text-decoration: none;
+}
+
+.button2 {
+  position: relative;
+    float: left;
+    margin-left: 2%;
+    display: inline-block;
+  line-height: 40px;
+  height: 40px;
+  width: 180px;
+  border: 0.5px solid #7094b0;
+    border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+}
+
+
+
+/* Section 1 */
+
+.section1title {
+        text-align: left;
+        position: relative;
+        color: #7094b0;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 100%;
+        font-size: 50px;
+        font-weight: 300;
+
+}
+
+.container1 {
+    background-color: aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5vh;
+}
+
+.grid {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.interestFont{
+    color: #7094b0;
+    font-size: 34px;
+}
+
+.interestTitle{
+    margin-bottom: 40px;
+    color: #7094b0;
+}
+
+
+/* Section 2 */
+
+
+.section2title {
+        text-align: center;
+        position: relative;
+        color: #7094b0;
+        margin: 5% auto;
+        margin-bottom: 2%;
+        width: 60%;
+        font-size: 32px;
+        font-weight: 200;
+
+}
+
+/*.card {
+    margin: 0  auto;
+    width: 30%;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    
+}
+
+.cardtitle{
+    text-transform: uppercase;
+    color: #7094b0;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 3%;
+    line-height: 100px;
+}*/
+
+.button3 {
+    text-align: center;
+  position: relative;
+  margin: 0 auto;
+  line-height: 40px;
+  height: 40px;
+  width: 300px;
+  border: 0.5px solid #7094b0;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+}
+
+
+
+/* Section 3 */
+
+.section3title {
+        text-align: left;
+        position: relative;
+        color: white;
+        margin-top: 15%;
+        margin-left: 15%;
+        width: 100%;
+        font-size: 50px;
+        font-weight: 300;
+
+}
+
+.container3 {
+    background-color: #a8c2d8;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10vh;
+}
+
+.episodes {
+    
+    margin-top: 5% !important;
+    margin-left:20%;
+    border-radius: 10px;
+
+}
+
+/*Section Paddings and Stuff*/
+
+
+
+
+
+
+/*Footer*/
+
+.footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+}
+
+
+    .worktitle{
+        font-size: 60px;
+    }
+
+.intereststitle{
+        font-size: 60px;
+    }
+
+.toolkittitle{
+        font-size: 60px;
+    }
+
+
+
+@media (max-width: 952px){
+    img.logo {
+        position: fixed;
+        width: 56px;
+        top: 16px;
+        left: 35px;
+    }
+    
+    .checkbtn{
+        display: block;
+    }
+
+    
+    .navL {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        backdrop-filter: blur(100px);
+        -webkit-backdrop-filter: blur(6px);
+        -moz-backdrop-filter: blur(6px);
+        -o-backdrop-filter: blur(6px);
+        background-color: hsla(0, 0%, 98%, .8);
+        filter:blur(0)
+        -moz-filter: blur(0);
+        -o-filter: blur(0);
+        top: 50px;
+        left: -100%;
+        transition: all .5s;
+    }
+    
+    
+    a:hover,a.active{
+        color: black;
+    }
+    
+    
+    #check:checked ~ .navL{
+        left: 0;
+    }
+    
+    .landingtitle{
+    font-size: 48px;
+
+    }
+    
+    .landingimg{
+        width: 80%;
+    }
+    
+    
+    .cantraceimg{
+    display: none;
+        
+    }
+    .cantraceimgmobile{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding: 5vh 0;
+    }
+    
+    #section2{
+        text-align: center !important;
+        width: 100%;
+    }
+    
+    .cantracetitle{
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-size: 4vw;
+        color: black;
+        top: 16%;
+}
+
+.cantracesub{
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-size: 2vw;
+        color: black;
+        top: 26%;
+    }
+    
+    .cantracebtn {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-size: 3vw;
+        top: 30%;
+        color: dodgerblue;
+        transition: .5s !important;
+}
+    
+    
+    .deltaimg{
+    display: none;
+        
+    }
+    .deltaimgmobile{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5vh;
+    }
+    
+    .deltatitle{
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-size: 4vw;
+        color: black;
+        top: 10%;
+}
+
+    .deltasub{
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-size: 2vw;
+        color: black;
+        top: 20%;
+}
+    
+    .deltabtn {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-size: 3vw;
+        top: 27%;
+        color: dodgerblue;
+        transition: .5s !important;
+}
+    
+    
+    .appleimg{
+    display: none;
+        
+    }
+    .appleimgmobile{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5vh;
+    }
+    
+    .appletitle{
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 6vw;
+        color: white;
+        top: 30%;
+}
+
+    .applesub{
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 3vw;
+        color: white;
+        top: 43%;
+}
+    
+    .applebtn {
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 3vw;
+        top: 50%;
+        color: white;
+        transition: .5s !important;
+}
+    
+    .igtitle{
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 6vw;
+        color: white;
+        top: 10%;
+}
+    
+    
+
+    .igsub{
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 3vw;
+        color: white;
+        top: 17%;
+}
+    
+     .igbtn {
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 3vw;
+        top: 22%;
+        color: white;
+        transition: .5s !important;
+}
+    
+    
+    .igimg{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5vh;
+    }
+    
+    .ravnostitle{
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 6vw;
+        color: white;
+        top: 10%;
+}
+    
+    
+
+    .ravnossub{
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 3vw;
+        color: white;
+        top: 17%;
+}
+    
+     .ravnosbtn {
+        position: absolute;
+        text-align: center;
+        width: 95%;
+        font-size: 3vw;
+        top: 22%;
+        color: white;
+        transition: .5s !important;
+}
+    
+    
+     .ravnosimg{
+        display: block;
+        max-width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5vh;
+    }
+    
+    .ravnosbtn:hover {
+    color: white;
+    transition: .5s !important;
+}
+    
+    .worktitle{
+        margin-bottom: 5vh;
+    }
+    
+    .contain2{
+    background-color: white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+    
+        .contain3{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+    .footer{
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    
+    .worktitle{
+        font-size: 48px;
+    }
+
+.intereststitle{
+        font-size: 48px;
+    }
+
+.toolkittitle{
+        font-size: 48px;
+    }
+    
+}
