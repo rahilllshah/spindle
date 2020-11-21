@@ -296,7 +296,7 @@ a {
         text-align: center;
         position: relative;
         color: #7094b0;
-        margin: 5% auto;
+        margin: 10% auto;
         margin-bottom: 2%;
         width: 60%;
         font-size: 32px;
@@ -374,7 +374,7 @@ a {
     background-color: #a8c2d8;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10vh;
+    margin-top: 16vh;
 }
 
 .form-container {
@@ -387,7 +387,7 @@ a {
         text-align: center;
         position: relative;
         color: #7094b0;
-        margin-top: 7%;
+        margin-top: 12%;
         margin-bottom: 5%;
         margin-left: 0;
         width: 100%;
@@ -396,11 +396,25 @@ a {
 }
 
 
+
+.one {
+  border: 0.5px solid #7094b0;
+    border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+}
+
+.button4 {
+    
+}
+
 .container5 {
     background-color: #7094b0;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 .section5title {
@@ -492,17 +506,7 @@ a {
 }
 
 
-    .worktitle{
-        font-size: 60px;
-    }
 
-.intereststitle{
-        font-size: 60px;
-    }
-
-.toolkittitle{
-        font-size: 60px;
-    }
 
 
 
@@ -551,258 +555,11 @@ a {
         left: 0;
     }
     
-    .landingtitle{
-    font-size: 48px;
-
-    }
     
-    .landingimg{
-        width: 80%;
-    }
-    
-    
-    .cantraceimg{
-    display: none;
-        
-    }
-    .cantraceimgmobile{
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding: 5vh 0;
-    }
-    
-    #section2{
-        text-align: center !important;
-        width: 100%;
-    }
-    
-    .cantracetitle{
-        position: absolute;
-        text-align: center;
-        width: 80%;
-        font-size: 4vw;
-        color: black;
-        top: 16%;
-}
-
-.cantracesub{
-        position: absolute;
-        text-align: center;
-        width: 80%;
-        font-size: 2vw;
-        color: black;
-        top: 26%;
-    }
-    
-    .cantracebtn {
-        position: absolute;
-        text-align: center;
-        width: 80%;
-        font-size: 3vw;
-        top: 30%;
-        color: dodgerblue;
-        transition: .5s !important;
-}
-    
-    
-    .deltaimg{
-    display: none;
-        
-    }
-    .deltaimgmobile{
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 5vh;
-    }
-    
-    .deltatitle{
-        position: absolute;
-        text-align: center;
-        width: 80%;
-        font-size: 4vw;
-        color: black;
-        top: 10%;
-}
-
-    .deltasub{
-        position: absolute;
-        text-align: center;
-        width: 80%;
-        font-size: 2vw;
-        color: black;
-        top: 20%;
-}
-    
-    .deltabtn {
-        position: absolute;
-        text-align: center;
-        width: 80%;
-        font-size: 3vw;
-        top: 27%;
-        color: dodgerblue;
-        transition: .5s !important;
-}
-    
-    
-    .appleimg{
-    display: none;
-        
-    }
-    .appleimgmobile{
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 5vh;
-    }
-    
-    .appletitle{
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 6vw;
-        color: white;
-        top: 30%;
-}
-
-    .applesub{
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 3vw;
-        color: white;
-        top: 43%;
-}
-    
-    .applebtn {
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 3vw;
-        top: 50%;
-        color: white;
-        transition: .5s !important;
-}
-    
-    .igtitle{
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 6vw;
-        color: white;
-        top: 10%;
-}
-    
-    
-
-    .igsub{
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 3vw;
-        color: white;
-        top: 17%;
-}
-    
-     .igbtn {
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 3vw;
-        top: 22%;
-        color: white;
-        transition: .5s !important;
-}
-    
-    
-    .igimg{
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 5vh;
-    }
-    
-    .ravnostitle{
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 6vw;
-        color: white;
-        top: 10%;
-}
-    
-    
-
-    .ravnossub{
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 3vw;
-        color: white;
-        top: 17%;
-}
-    
-     .ravnosbtn {
-        position: absolute;
-        text-align: center;
-        width: 95%;
-        font-size: 3vw;
-        top: 22%;
-        color: white;
-        transition: .5s !important;
-}
-    
-    
-     .ravnosimg{
-        display: block;
-        max-width: 100%;
-        height: auto;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 5vh;
-    }
-    
-    .ravnosbtn:hover {
-    color: white;
-    transition: .5s !important;
-}
-    
-    .worktitle{
-        margin-bottom: 5vh;
-    }
-    
-    .contain2{
-    background-color: white;
-    padding-left: 5vh;
-    padding-right: 5vh;
-}
-    
-        .contain3{
-    padding-left: 5vh;
-    padding-right: 5vh;
-}
     .footer{
         padding-left: 5vh;
         padding-right: 5vh;
     }
     
-    .worktitle{
-        font-size: 48px;
-    }
-
-.intereststitle{
-        font-size: 48px;
-    }
-
-.toolkittitle{
-        font-size: 48px;
-    }
     
 }
