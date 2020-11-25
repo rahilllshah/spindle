@@ -253,7 +253,7 @@ z-index: 1;
 .section1title {
         text-align: center;
         position: relative;
-        padding-top: 20vh;
+        padding-top: 10vh;
         padding-bottom: 1vh;
         width: 100%;
 }
@@ -305,6 +305,10 @@ z-index: 1;
 
 /* The Goal */
 
+.section2 {
+    padding-bottom: 0vh;
+}
+
 .container2 {
     margin-left: 10%;
     margin-right: 10%;
@@ -329,7 +333,7 @@ z-index: 1;
   line-height: 40px;
   height: 40px;
   width: 300px;
-  border: 0.5px solid #7094b0;
+  border: 0.5px solid #65919d;
   border-radius: 10px;
   text-transform: uppercase;
   text-decoration: none;
@@ -339,7 +343,8 @@ z-index: 1;
 
 
 .trailerButton a {
-  color: #7094b0;
+      color: #65919d;
+
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -361,7 +366,8 @@ z-index: 1;
   opacity: 0;
   line-height: 40px;
   border-radius: 50%;
-  background: #7094b0;
+      background: #65919d;
+
   position: absolute;
   transition: all .5s ease-Out;
   top: 20px;
@@ -402,7 +408,8 @@ z-index: 1;
 
 
 .section3 {
-    padding-top: 40vh;
+    position: relative;
+    padding-top: 40%;
 }
 
 
@@ -412,7 +419,7 @@ z-index: 1;
 .section3title {
         text-align: center;
         position: relative;
-        padding-top: 20vh;
+        padding-top: 0vh;
         padding-bottom: 1vh;
         width: 100%;
 }
@@ -441,7 +448,6 @@ z-index: 1;
 .section5title {
         text-align: center;
         position: relative;
-        padding-bottom: 1vh;
         width: 100%;
 
 }
@@ -450,7 +456,6 @@ z-index: 1;
 .grid2 {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 3%;
 }
 
 .teamPic {
@@ -561,7 +566,8 @@ button:hover[type="submit"] {
 
 
 
-@media (max-width: 952px){
+@media (max-width: 1200px){
+    
     img.logo {
         position: fixed;
         width: 56px;
