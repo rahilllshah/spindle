@@ -530,6 +530,7 @@ button:hover[type="submit"] {
 
 
 /*Footer*/
+@media (max-width: 952px){
 
 img.logo{
     width: 75px;
@@ -544,6 +545,7 @@ nav ul li a {
     padding: 0 5px;
     text-decoration: none !important;
     transition: 0.5s;
+}
 }
 
 .footer{
