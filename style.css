@@ -531,11 +531,17 @@ button:hover[type="submit"] {
 
 /*Footer*/
 
+img.logo{
+    width: 75px;
+    line-height: 40px;
+    padding: 0 10px;
+    
+}
 nav ul li a {
     color: black;
     font-size: 14px;
     font-weight: 500;
-    padding: 0 10px;
+    padding: 0 5px;
     text-decoration: none !important;
     transition: 0.5s;
 }
@@ -544,24 +550,6 @@ nav ul li a {
     width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-
-
-
-
-
-@media (max-width: 1200px){
-    
-    
-    
-    
-    .footer{
-        padding-left: 5vh;
-        padding-right: 5vh;
-    }
-    
-    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
