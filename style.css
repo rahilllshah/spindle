@@ -44,9 +44,9 @@ h5 {
 .navL {
     position: fixed;
     text-align: center;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(6px);
-    background-color: hsla(0, 0%, 100%, .8);
+    background-color: hsla(0, 0%, 100%, .5);
     filter:blur(0);
     -webkit-filter: blur(0);
     width: 100%;
@@ -86,19 +86,6 @@ nav ul li a:hover {
 
 }
 
-.checkbtn{
-    color: black;
-    float: left;
-    line-height: 50px !important;
-    margin-left: 20px;
-    cursor: pointer;
-    display: none;
-}
-
-#check{
-    display:none;
-}
-
 
 /*Landing*/
 
@@ -117,8 +104,8 @@ nav ul li a:hover {
     position: relative;
     color: white;
     margin-left: 10%;
-    width: 50%;
-    font-size: 50px;
+    width: 60%;
+    font-size: 60px;
 }
     
 .landingsub {
@@ -416,6 +403,17 @@ z-index: 1;
     margin-left: 10% !important;
 }
 
+.pop{
+    width: 82%;
+    margin: auto;
+    margin-top: 5vh;
+
+}
+
+.container4b{
+    margin-top: 15vh;
+}
+
 
 /* Team */
 
@@ -440,7 +438,10 @@ z-index: 1;
 }
 
 .teamPic {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     margin-bottom: 10%;
 }
 
@@ -497,7 +498,7 @@ z-index: 1;
 .one {
     
   border: 0.5px solid #7094b0;
-    border-radius: 0px;
+    border-radius: 10px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: .8em;
@@ -512,7 +513,7 @@ z-index: 1;
 .submit {
     
   border: 0.5px solid #7094b0;
-    border-radius: 0px;
+    border-radius: 10px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: .8em;
@@ -560,4 +561,16 @@ nav ul li a {
     text-align: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+
+.social {
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+    color: darkgray;
+  text-decoration: none !important;
+}
+
+.social:hover {
+    opacity: 0.7;
 }
