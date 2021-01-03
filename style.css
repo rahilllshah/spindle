@@ -526,7 +526,7 @@ button:hover[type="submit"] {
             color: #7094b0 !important;
     background-color: #ebf2f7 !important;
     border: 0.5px solid #7094b0 !important;
-    border-radius: 0px !important;
+    border-radius: 10px !important;
 		}
 
 
