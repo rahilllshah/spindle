@@ -281,7 +281,7 @@ z-index: 1;
 .container2 {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 15vh;
+    padding-top: 20vh;
     padding-bottom: 15vh;
 }
 
@@ -586,6 +586,7 @@ nav ul li a {
 
 
 .containerw {
+    padding-top: 10vh;
   width: 80%;
   margin: 2rem auto; 
 }
