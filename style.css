@@ -89,61 +89,54 @@ nav ul li a:hover {
 
 /*Landing*/
 
-
-.landingContainer {
-    margin-top: 30vh;
-}
-.landing {
+.landing{
     text-align: center;
-    width: 100%;
+    margin-top: 10vh;
 }
 
-.landingtitle {
-    z-index: 1;
-    text-align: left;
-    position: relative;
-    color: white;
-    margin-left: 10%;
-    width: 60%;
-    font-size: 60px;
-}
+.landingtitle{
+    font-size: 50px;
+        margin: auto;
+        max-width: 85%;
+    }
+
     
 .landingsub {
     z-index: 1;
-    text-align: left;
+    text-align: center;
     position: relative;
-    color: white;
-    margin-left: 10%;
-    width: 70%;
+    color: darkgray;
+    width: 100%;
+    margin: auto;
+    margin-top: 2vh;
     font-size: 20px;  
 }
 
 .landingimg {
-    position: absolute;
-    float: left;
-    margin-top: 60px;
-    object-fit: cover;
-    width: 110%;
-    height: 100vh;
-}
-
-.uscimg {
-    display: none;
+    margin-top: 5vh;
+    width: 65%;
+    margin-bottom: 5vh;
+    margin: auto;
 }
 
 
 /* Buttons */
 
+.landingButtons {
+    margin-top: 2vh;
+    width: 100%;
+    text-align: center;
+}
+
 .spotifyButton {
-z-index: 1;
-  position: relative;
-    float: left;
-    margin-left: 10%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
   line-height: 40px;
   height: 40px;
   width: 180px;
-  border: 0.5px solid white;
-    border-radius: 10px;
+  border: 0.5px solid #65919d;
+  border-radius: 10px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: .8em;
@@ -151,13 +144,12 @@ z-index: 1;
 }
 
 .spotifyButton a {
-  color: white;
+  color: #65919d;
   text-decoration: none;
   letter-spacing: 1px;
 }
 
 #saButtons {
-  position: relative;
   overflow: hidden;
   cursor: pointer;
 }
@@ -173,7 +165,8 @@ z-index: 1;
   opacity: 0;
   line-height: 40px;
   border-radius: 50%;
-  background: white;
+      background: #65919d;
+
   position: absolute;
   transition: all .5s ease-Out;
   top: 20px;
@@ -189,21 +182,20 @@ z-index: 1;
 }
 
 #saButtons:hover a {
-  color: black;
+  color: white;
     text-decoration: none;
 }
 
 .appleButton {
-    z-index: 1;
-  position: relative;
-    float: left;
+    display: inline-block;
+    text-align: center;
+    position: relative;
     margin-left: 1%;
-    margin-bottom: 50vh;
   line-height: 40px;
   height: 40px;
   width: 180px;
-  border: 0.5px solid white;
-    border-radius: 10px;
+  border: 0.5px solid #65919d;
+  border-radius: 10px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: .8em;
@@ -211,10 +203,17 @@ z-index: 1;
 }
 
 .appleButton a {
-    color: white;
+color: #65919d;
+
   text-decoration: none;
   letter-spacing: 1px;
 }
+
+
+
+
+
+
 
 /* Conversations With */
 
@@ -281,8 +280,8 @@ z-index: 1;
 .container2 {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 20vh;
-    padding-bottom: 15vh;
+    padding-top: 30vh;
+    padding-bottom: 20vh;
 }
 
 .section2title {
@@ -396,7 +395,6 @@ z-index: 1;
 .section3title {
         text-align: center;
         position: relative;
-        padding-bottom: 1vh;
         width: 100%;
 }
 
@@ -404,6 +402,13 @@ z-index: 1;
     text-align: center;
 }
 
+.section3btitle {
+    margin-top: 15vh;
+        text-align: center;
+        position: relative;
+        padding-bottom: 5vh;
+        width: 100%;
+}
 
 .pod {
     width: 80%;
@@ -411,15 +416,12 @@ z-index: 1;
     margin-left: 10% !important;
 }
 
-.pop{
-    width: 82%;
-    margin: auto;
-    margin-top: 5vh;
-
-}
 
 .container4b{
     margin-top: 15vh;
+    width: 89%;
+    margin: auto;
+    margin-bottom: 5vh;
 }
 
 
@@ -583,7 +585,9 @@ nav ul li a {
     opacity: 0.7;
 }
 
-
+.position {
+    font-size: 12px;
+}
 
 .containerw {
     padding-top: 10vh;
@@ -873,3 +877,45 @@ position: relative;
     opacity: 1;
 
 }
+
+.gallery__item--11 {
+        position: relative;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 10;
+}
+
+.text11 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gallery__item--11:hover .overlay {
+    opacity: 1;
+
+}
+
+
+/* The heart of the matter */
+.testimonial-group > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-6 {
+  display: inline-block;
+}
+
+/* Decorations */
+.col-6 { padding: 12px; }
+.col-6:nth-child(3n+1) { }
+.col-6:nth-child(3n+2) { }
+.col-6:nth-child(3n+3) { }
