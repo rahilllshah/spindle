@@ -113,10 +113,9 @@ nav ul li a:hover {
 }
 
 .landingimg {
-    margin-top: 5vh;
     width: 65%;
-    margin-bottom: 5vh;
     margin: auto;
+    display: block;
 }
 
 
@@ -126,6 +125,7 @@ nav ul li a:hover {
     margin-top: 2vh;
     width: 100%;
     text-align: center;
+    margin-bottom: 2vh;
 }
 
 .spotifyButton {
@@ -280,7 +280,7 @@ color: #65919d;
 .container2 {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 30vh;
+    padding-top: 20vh;
     padding-bottom: 20vh;
 }
 
