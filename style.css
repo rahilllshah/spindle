@@ -904,6 +904,22 @@ position: relative;
 }
 
 
+/* The heart of the matter */
+.testimonial-group > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-6 {
+  display: inline-block;
+}
+
+/* Decorations */
+.col-6 { padding: 12px; }
+.col-6:nth-child(3n+1) { }
+.col-6:nth-child(3n+2) { }
+.col-6:nth-child(3n+3) { }
+
 
 @media (max-width: 920px){
     .landingimg{
@@ -911,9 +927,6 @@ position: relative;
      width: 80%;   
     }
     
-    .gallery{
-        width: 100%;
-    }
     .landingButtons{
         width: 90%;
         margin: auto;
