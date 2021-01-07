@@ -919,3 +919,32 @@ position: relative;
 .col-6:nth-child(3n+1) { }
 .col-6:nth-child(3n+2) { }
 .col-6:nth-child(3n+3) { }
+
+
+@media (max-width: 920px){
+    body {
+        max-width: 90%;
+        margin: auto;
+    }
+    .landingimg{
+        margin-top: 5vh;
+     width: 80%;   
+    }
+    .landingButtons{
+        width: 80%;
+        margin: auto;
+        margin-top: 5vh;
+    }
+    
+    .trailerButton{
+        margin: auto;
+    }
+    
+    .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11{
+        font-size: 14px;
+    }
+    
+    .position {
+        display: none;
+    }
+}
