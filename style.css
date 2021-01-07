@@ -904,34 +904,18 @@ position: relative;
 }
 
 
-/* The heart of the matter */
-.testimonial-group > .row {
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-.testimonial-group > .row > .col-6 {
-  display: inline-block;
-}
-
-/* Decorations */
-.col-6 { padding: 12px; }
-.col-6:nth-child(3n+1) { }
-.col-6:nth-child(3n+2) { }
-.col-6:nth-child(3n+3) { }
-
 
 @media (max-width: 920px){
-    body {
-        max-width: 90%;
-        margin: auto;
-    }
     .landingimg{
         margin-top: 5vh;
      width: 80%;   
     }
+    
+    .gallery{
+        width: 100%;
+    }
     .landingButtons{
-        width: 80%;
+        width: 90%;
         margin: auto;
         margin-top: 5vh;
     }
@@ -941,10 +925,25 @@ position: relative;
     }
     
     .text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10, .text11{
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .position {
         display: none;
+    }
+    .section1sub{
+        width: 90%;
+        margin: auto;
+    }
+    .section3sub{
+        width: 90%;
+        margin: auto;
+    }
+    .section4sub{
+        width: 90%;
+        margin: auto;
+    }
+    .footer{
+        width: 90%;
     }
 }
