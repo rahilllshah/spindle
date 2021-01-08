@@ -588,14 +588,17 @@ nav ul li a {
 
 
 .containerw {
-    padding-top: 10vh;
   width: 80%;
   margin: 3rem auto; 
 }
 
+.elements{
+    padding-top: 0px;
+}
 
 .guestimg{
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   width: 100%;
   object-fit: cover;
 }
@@ -643,12 +646,6 @@ nav ul li a {
 .guest11:hover .overlay{
     opacity: 1;
 }
-
-.elements{
-    padding: 0px;
-}
-
-
 
 .overlay {
   position: absolute;
